@@ -14,6 +14,10 @@ class DogComponent extends React.Component{
         <div style={compStyle}>
         <h3> Dog Component </h3>
         <img style={style} src="http://greatinspire.com/wp-content/uploads/2012/11/Cute-puppy-photos-602.jpg" alt="Cute Dog"/>
+            <div>
+                <button> Like </button>     
+                <button> Dislike </button>     
+            </div>
         </div>
     );
 };
