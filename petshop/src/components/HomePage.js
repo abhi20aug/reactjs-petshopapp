@@ -17,8 +17,10 @@ var HomePage = function(){
             <h1 style={style}> 
             Welcome to petshop
             </h1>
-            <CatComponent/>
-            <DogComponent/>
+            <div style={{marginTop=60, textAlign='center'}}>
+                <CatComponent/>
+                <DogComponent/>
+            </div>
         </div>
     );
 };
