@@ -4,13 +4,18 @@ var React = require('react');
 
 class CatComponent extends React.Component{
  render(){
+     var style= {
+        height: 400,
+        width: 400
+     };
  return (
- <h3> Cat Component </h3>
+    <div>
+        <h3> Cat Component </h3>
+        <img style= {style} src="https://i.ytimg.com/vi/vqc8oezvs8I/maxresdefault.jpg" alt="Cute Cat">      
+    </div>
  );  
- }
+ };
       
 };
 
 module.exports = CatComponent;
-
-
