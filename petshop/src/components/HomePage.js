@@ -6,7 +6,7 @@ var HomePage = function(){
     //inline styling
     var style = {
         textAlign: 'center',
-        fontSize: '3em',
+        fontSize: '2em',
         color: 'blue'
     };
     

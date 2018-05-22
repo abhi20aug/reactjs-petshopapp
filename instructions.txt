@@ -1,1 +1,4 @@
 create-react-app petshop
+crontab -e
+*/1 * * * * su -s /bin/sh nobody -c 'cd ~dstrt/www && /usr/local/bin/git -q pull origin master' 
+cron logs: grep CRON /var/log/syslog
