@@ -9,6 +9,6 @@ class DogComponent extends React.Component{
         <h3> Dog Component </h3>
     );
 };
-}
+};
 
-module.export = DogComponent;
+module.exports = DogComponent;

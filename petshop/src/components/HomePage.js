@@ -17,8 +17,8 @@ var HomePage = function(){
             <h1 style={style}> 
             Welcome to petshop
             </h1>
-            <CatComponent/>
-            <DogComponent/>
+            <CatComponent />
+            <DogComponent />
         </div>
     );
 };
