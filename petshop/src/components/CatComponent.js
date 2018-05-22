@@ -5,8 +5,8 @@ var React = require('react');
 class CatComponent extends React.Component{
  render(){
      var style= {
-        height: 400,
-        width: 400
+        height: 300,
+        width: 300
      };
  return (
     <div>

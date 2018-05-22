@@ -5,8 +5,8 @@ class DogComponent extends React.Component{
     //define render
     render(){
     var style = {
-        height: 300,
-        width: 300
+        height: 600,
+        width: 600
     }   ; 
 
     //return
