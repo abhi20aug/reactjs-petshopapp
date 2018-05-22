@@ -11,7 +11,7 @@ class DogComponent extends React.Component{
 
     //return
     return(
-        <div>
+        <div style={compStyle}>
         <h3> Dog Component </h3>
         <img style={style} src="http://greatinspire.com/wp-content/uploads/2012/11/Cute-puppy-photos-602.jpg" alt="Cute Dog"/>
         </div>
@@ -19,4 +19,9 @@ class DogComponent extends React.Component{
 };
 };
 
+var compStyle= {
+    display: 'inline-block',
+    marginLeft: 'auto',
+    marginRight: 'auto'
+};
 module.exports = DogComponent;
