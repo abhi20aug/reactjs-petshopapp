@@ -12,7 +12,7 @@ var HomePage = function(){
     
     return(
         <h1 style={style}> 
-        Welcome to petshop 
+        Welcome to petshop -cron job automation test
         </h1>
     );
 };
