@@ -1,5 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var CatComponent = require('./CatComponent');
+var DogComponent = require('./DogComponent');
 
 var HomePage = function(){
 
@@ -11,9 +13,13 @@ var HomePage = function(){
     };
     
     return(
-        <h1 style={style}> 
-        Welcome to petshop
-        </h1>
+        <div>
+            <h1 style={style}> 
+            Welcome to petshop
+            </h1>
+            <CatComponent/>
+            <DogComponent/>
+        </div>
     );
 };
 
